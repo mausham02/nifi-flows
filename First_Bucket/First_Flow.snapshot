@@ -192,10 +192,41 @@
         "name" : "MyFirstNiFiCommunicationWithMySqlDatabase",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -1704.0,
-          "y" : -280.0
+          "x" : -1040.0,
+          "y" : -160.0
         },
-        "processGroups" : [ ],
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "a8e83993-d2e6-3ae2-ad92-700cd2b414ee",
+          "identifier" : "9475ecdb-dda7-3095-beae-b89798506851",
+          "inputPorts" : [ ],
+          "labels" : [ ],
+          "name" : "New Process that has been added ",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 456.0,
+            "y" : 480.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { },
+          "versionedFlowCoordinates" : {
+            "bucketId" : "66648fa5-2d06-41f2-8a16-2ae60d7e30d8",
+            "flowId" : "48dfc949-f805-4bbb-b7a3-d86c36956d80",
+            "registryUrl" : "http://localhost:18080",
+            "version" : 1
+          }
+        } ],
         "processors" : [ {
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
