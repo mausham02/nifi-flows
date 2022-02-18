@@ -2,5 +2,14 @@ flows:
   d6e16e9a-1c9b-4dbf-bae2-d0df6fe81781: {ver: 1, file: Git_Flow.snapshot, comments: Git
       Flow, author: anonymous, created: 1645151038570, flowName: Git Flow, flowDesc: Git
       Flow}
+  ab287f75-ba9b-43ec-8528-53f46e6c7d32:
+    ver: 4
+    file: First_Flow.snapshot
+    comments: |
+      Simplified the view of the Structure
+    author: anonymous
+    created: 1645154494908
+    flowName: First Flow
+    flowDesc: First Flow
 layoutVer: 1
 bucketId: 66648fa5-2d06-41f2-8a16-2ae60d7e30d8
