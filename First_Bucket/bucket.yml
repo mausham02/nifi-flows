@@ -1,7 +1,4 @@
 flows:
-  d6e16e9a-1c9b-4dbf-bae2-d0df6fe81781: {ver: 1, file: Git_Flow.snapshot, comments: Git
-      Flow, author: anonymous, created: 1645151038570, flowName: Git Flow, flowDesc: Git
-      Flow}
   48dfc949-f805-4bbb-b7a3-d86c36956d80: {ver: 1, file: Third_Flow.snapshot, comments: Checking
       how the version control works here, author: anonymous, created: 1645154604967,
     flowName: Third Flow, flowDesc: Th Fl}
