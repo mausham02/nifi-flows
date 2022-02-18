@@ -1,0 +1,68 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "91af5f5a-3f33-37ab-94ae-eb31ee10f7f9",
+        "inputPorts" : [ ],
+        "labels" : [ ],
+        "name" : "Process for Storing another process\\",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : -1680.0,
+          "y" : -352.0
+        },
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "91af5f5a-3f33-37ab-94ae-eb31ee10f7f9",
+          "identifier" : "a8e83993-d2e6-3ae2-ad92-700cd2b414ee",
+          "inputPorts" : [ ],
+          "labels" : [ ],
+          "name" : "MyFirstNiFiCommunicationWithMySqlDatabase",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : -984.0,
+            "y" : -176.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { },
+          "versionedFlowCoordinates" : {
+            "bucketId" : "66648fa5-2d06-41f2-8a16-2ae60d7e30d8",
+            "flowId" : "ab287f75-ba9b-43ec-8528-53f46e6c7d32",
+            "registryUrl" : "http://localhost:18080",
+            "version" : 5
+          }
+        } ],
+        "processors" : [ ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
